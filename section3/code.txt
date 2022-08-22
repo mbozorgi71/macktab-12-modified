@@ -1,0 +1,38 @@
+average population:
+
+select avg(population)
+from city
+
+//---------------------------
+
+population dencity difference:
+
+select max(Population)-min(Population) from City;
+
+//-----------------
+
+revising aggregation sum:
+
+select sum (population)
+from city
+where district = 'california';
+
+//------------------------
+
+
+
+revising aggregation the average :
+
+select avg(POPULATION)
+ from CITY
+ WHERE DISTRICT = 'California';
+
+
+//---------------
+
+revising-aggregations-the-count-function : 
+select count(*)
+from CITY 
+WHERE POPULATION > 100000;
+
+
