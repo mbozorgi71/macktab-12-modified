@@ -1,0 +1,27 @@
+african cities :
+
+SELECT CITY.NAME
+FROM CITY
+INNER JOIN COUNTRY 
+ON CITY.COUNTRYCODE = COUNTRY.CODE 
+WHERE COUNTRY.CONTINENT = 'Africa';
+
+//--------------------------
+
+
+average population on of each contries :
+
+SELECT Country.Continent, FLOOR(AVG(City.Population))
+FROM Country, City 
+WHERE Country.Code = City.CountryCode 
+GROUP BY Country.Continent ;
+//--------------------------------------
+
+
+population census :
+
+select sum (city.population)
+from city
+inner join countnry
+on country.code = city.countrucode
+where country.continent = 'Asia';
