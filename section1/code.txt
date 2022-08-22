@@ -1,0 +1,22 @@
+
+1:
+
+select * from city 
+where population >100000 && country code = 'USA';
+
+
+2:
+select  * from  city 
+
+
+3:
+
+select  * from  city 
+where population >120000 && country code = 'USA';
+
+4:
+
+
+select  * from  city 
+where id= 1661;
+ 
