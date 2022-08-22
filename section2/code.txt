@@ -1,0 +1,19 @@
+emploee name:
+
+select name 
+from emploee
+order by name
+
+emploee salary:
+
+select name 
+from emploee
+where salary >2900 and months <10
+order by emploe_id
+
+
+wher observation station:
+selecy distict city
+from station
+where mod(id,2)=0
+order by city asc;
